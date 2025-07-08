@@ -39,9 +39,17 @@ To simulate a real-world data pipeline that:
 ├── README.md # Project documentation
 ```
 
+## 📌 Airflow DAG
+This image shows the Airflow DAG (Directed Acyclic Graph) that orchestrates the data pipeline. Each task block represents a step in the ETL process, such as dbt seed, dbt run, and dbt test, which are triggered sequentially to transform and validate data inside Snowflake.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cea9c15c-f460-49ea-ae89-e7f3e823bce8" width="600"/>
+</p>
 
-![DAG Graph](https://github.com/user-attachments/assets/cea9c15c-f460-49ea-ae89-e7f3e823bce8)
 
 ![Snowflake](https://github.com/user-attachments/assets/02edb6eb-0938-472a-b135-6f2b87d20aa7)
+## 📌 Snowflake Sample Data
+This visual displays the Snowflake Web UI, showing the TPCH sample dataset provided by Snowflake. These datasets (e.g., orders, lineitem) are used as the raw source tables for this DBT project, simulating a real-world transactional system.
 
 ![Visual Studio Code](https://github.com/user-attachments/assets/0a5df1be-36b5-4ff1-9436-775b0d9cb7c0)
+## 📌 VS Code Workspace
+Here is the Visual Studio Code interface, which shows the structured DBT project directory. It includes folders like models, macros, snapshots, and seeds, providing a clean developer environment for building, testing, and maintaining the data transformation logic.
