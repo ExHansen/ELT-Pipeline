@@ -42,7 +42,7 @@ To simulate a real-world data pipeline that:
 ## 📌 Airflow DAG
 This image shows the Airflow DAG (Directed Acyclic Graph) that orchestrates the data pipeline. Each task block represents a step in the ETL process, such as dbt seed, dbt run, and dbt test, which are triggered sequentially to transform and validate data inside Snowflake.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cea9c15c-f460-49ea-ae89-e7f3e823bce8" width="600"/>
+  <img src="https://github.com/user-attachments/assets/ef01c6af-dc30-428b-aca8-b7f291024fa0" width="800"/>
 </p>
 
 ## 📌 Snowflake Sample Data
